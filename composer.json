@@ -1,0 +1,29 @@
+{
+  "name": "infancyit/log-rhythm",
+  "description": "A Custom Monolog Library for Laravel-MySQL.",
+  "type": "library",
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "RafikFarhad",
+      "email": "rafikfarhad@gmail.com"
+    }
+  ],
+  "require": {
+    "illuminate/support": "^5.5"
+  },
+  "autoload": {
+    "classmap": [
+    ],
+    "psr-4": {
+      "Farhad\\LogRhythm\\": "src/"
+    }
+  },
+  "extra": {
+    "laravel": {
+      "providers": [
+        "InfancyIt\\LogRhythm\\LogRhythmServiceProvider"
+      ]
+    }
+  }
+}
