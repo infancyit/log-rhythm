@@ -16,7 +16,7 @@ class LogRhythmServiceProvider extends ServiceProvider
         $this->publishes([
             __DIR__ . '/../publish/config/' => app_path('../config'),
             __DIR__ . '/../publish/migrations/' => app_path('../database/migrations'),
-        ], 'Farhad-LogRhythm');
+        ], 'InfancyIt-LogRhythm');
 //        $this->loadRoutesFrom(__DIR__.'/routes/web.php');
 
 
