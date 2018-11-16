@@ -16,7 +16,7 @@
     "classmap": [
     ],
     "psr-4": {
-      "InfancyIt\\LogRhythm\\": "src/"
+      "InfancyIt\\LogRhythm\\": "src"
     }
   },
   "extra": {
